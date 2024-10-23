@@ -16,12 +16,13 @@ const Header = ({ t }) => {
       <div className={styles.header__wrapper}>
         
         <div className={styles.content}>
-          <h1>
-            {t('Header Text Hello')} <img src={helloImg} alt="" />
+          <h1 className='h1_1'>
+            Merhaba <img src={helloImg} alt="" />
           </h1>
-          <h2>
-            <span>{t('I am a front-end')}</span> {t('Header Text About')}
-          </h2>
+          <p className='h1_2'>
+          "Doğa ve Canlı" blogumuza hoş geldiniz! Burada, doğanın sunduğu mucizeleri keşfederken, tüm canlıların birbirine olan derin bağlılığını ve hassas dengesini ele alacağız. Dünyamızı daha yakından tanımaya ve birlikte korumaya ne dersiniz?
+          </p>
+          
           <div className={styles.socials}>
             <a href="https://www.instagram.com/doniyor_web/">
               <img src={instagram} alt="" />

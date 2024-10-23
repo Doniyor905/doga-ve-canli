@@ -4,8 +4,8 @@
     }
 
     .nav__logo {
-        width: 105px;
-
+        width: 250px;
+        margin: 0 auto;
         img {
             width: 100%;
         }
@@ -102,7 +102,7 @@
 
     @media(max-width:646px) {
         .nav__logo {
-            width: 75px;
+            width: 200px;
 
             img {
                 width: 100%;
