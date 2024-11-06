@@ -21,7 +21,7 @@ const data = [
     skills:
       'Orman yangınları, dünyadaki birçok ekosistemi tehdit eden ve iklim krizini tetikleyen doğal afetler arasında önemli bir yer tutar. Türkiye gibi orman bakımından zengin ülkelerde, orman yangınları hem doğal yaşamı hem de ekonomik ve sosyal yapıyı ciddi şekilde etkileyebilir. Bu yangınlar, çoğunlukla insan kaynaklı sebeplerle ortaya çıkmakla birlikte, yıldırımlar veya doğal sürtünme gibi nedenlerle de başlayabilir​ Türkiyenin güney bölgelerinde yer alan Akdeniz iklimi, yaz aylarında sıcaklık ve kuraklık seviyelerinin artması nedeniyle orman yangınlarına karşı hassas bir bölgedir. 2021 yılında, Antalya-Manavgat bölgesinde haftalar süren büyük orman yangınları, binlerce hektar ormanlık alanı yok etmiş, yerleşim yerlerini tehdit etmiş ve büyük toplumsal ve ekonomik kayıplara yol açmıştır. Bu yangınlar, ormanların korunması ve yangınla mücadelede daha etkili stratejilerin gerekliliğini gözler önüne sermiştir​ Orman yangınlarının önlenmesinde ve kontrol altına alınmasında erken uyarı sistemleri, itfaiye ve orman koruma ekiplerinin eğitimi, yangına dirençli orman yapılarının oluşturulması gibi önlemler büyük önem taşır. Bilinçlendirme kampanyaları, kamuoyu duyarlılığının artmasına ve toplumsal işbirliğinin sağlanmasına katkı sağlar. Buna ek olarak, yerel yönetimler ve ulusal stratejilerin etkin şekilde uygulanması, bu afetlerle mücadelenin',
     altSoz: 'İlgili makale:',
-    altSozLink: 'https://www.markamama.com.tr/hayvan-sevgisi-nedir',
+    altSozLink: 'https://dergipark.org.tr/tr/pub/afet/issue/73264/1086418',
     link: 'doga',
   },
 ];
