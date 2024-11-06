@@ -14,20 +14,20 @@ const Header = ({ t }) => {
   return (
     <div className={styles.root} id="home">
       <div className={styles.header__wrapper}>
-        
         <div className={styles.content}>
-          <h1 className='h1_1'>
+          <h1 className="h1_1">
             Merhaba <img src={helloImg} alt="" />
           </h1>
-          <p className='h1_2'>
-          "Doğa ve Canlı" blogumuza hoş geldiniz! Burada, doğanın sunduğu mucizeleri keşfederken, tüm canlıların birbirine olan derin bağlılığını ve hassas dengesini ele alacağız. Dünyamızı daha yakından tanımaya ve birlikte korumaya ne dersiniz?
+          <p className="h1_2">
+            "Doğa ve Canlı" blogumuza hoş geldiniz! Burada, doğanın sunduğu mucizeleri keşfederken,
+            tüm canlıların birbirine olan derin bağlılığını ve hassas dengesini ele alacağız.
+            Dünyamızı daha yakından tanımaya ve birlikte korumaya ne dersiniz?
           </p>
-          
+
           <div className={styles.socials}>
-            <a href="https://www.instagram.com/doniyor_web/">
+            <a href="https://www.instagram.com/omertrhhn?igsh=aDZyMWJlb3RuODFw">
               <img src={instagram} alt="" />
             </a>
-
           </div>
         </div>
       </div>
