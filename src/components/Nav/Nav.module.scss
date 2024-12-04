@@ -1,0 +1,170 @@
+.nav__block {
+  display: flex;
+  gap: 60px;
+}
+
+.nav__logo {
+  width: 105px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.nav__wrapper {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.nav__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.burger__close {
+  display: none;
+}
+
+.burger__bars {
+  font-size: 25px;
+  z-index: 1;
+  display: none;
+}
+
+.nav__list {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+
+  a {
+    text-decoration: none;
+    color: #ab751f;
+  }
+}
+
+.language {
+  position: relative;
+
+  &__title {
+    cursor: pointer;
+    color: #ab751f;
+    display: flex;
+    gap: 10px;
+    text-transform: uppercase;
+  }
+
+  &__dropdown {
+    position: absolute;
+    top: 0px;
+    left: -10px;
+    background-color: #fff;
+    box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.15);
+    width: 90px;
+    height: 120px;
+    border-radius: 4px;
+    padding: 10px 0;
+    opacity: 0;
+    transition: 0.5s;
+    pointer-events: none;
+
+    &.active {
+      opacity: 1;
+      top: 30px;
+      pointer-events: all;
+    }
+
+    ul {
+      list-style: none;
+      text-align: center;
+      margin-top: 4px;
+    }
+
+    li {
+      font-size: 16px;
+      color: #ab751f;
+      font-weight: 500;
+      margin-bottom: 8px;
+      cursor: pointer;
+      text-transform: uppercase;
+
+      &:active {
+        color: #000;
+      }
+    }
+  }
+}
+
+@media (max-width: 646px) {
+  .nav__logo {
+    width: 75px;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 544px) {
+  .nav__list {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .burger__bars {
+    order: 2;
+    color: #ab751f;
+    display: block;
+  }
+
+  .nav {
+    order: 1;
+  }
+
+  .nav__block {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .nav__list {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #ab751f;
+    top: 0;
+    left: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    gap: 10px;
+    opacity: 0;
+    transition: 0.5s;
+    pointer-events: none;
+
+    &.active {
+      opacity: 1;
+      left: 0;
+      pointer-events: all;
+      z-index: 99;
+    }
+
+    .burger__close {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      color: #fff;
+      font-size: 25px;
+      display: block;
+    }
+
+    li {
+      a {
+        color: #fff;
+      }
+    }
+  }
+}
